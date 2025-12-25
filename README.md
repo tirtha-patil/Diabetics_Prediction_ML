@@ -30,20 +30,20 @@ Support Vector Machine (SVM)
 
 📈 Key Results & Insights
 
-. Random Forest and SVM achieved the highest accuracy (~75%)
-. ROC–AUC score of 0.83 indicates strong class separation ability
-. Feature importance analysis showed:
-. Glucose as the most influential feature
-. Followed by BMI, Age, and Diabetes Pedigree Function
-. The learned feature importance aligns well with established medical knowledge
+1. Random Forest and SVM achieved the highest accuracy (~75%)
+2. ROC–AUC score of 0.83 indicates strong class separation ability
+3. Feature importance analysis showed:
+4. Glucose as the most influential feature
+5. Followed by BMI, Age, and Diabetes Pedigree Function
+6. The learned feature importance aligns well with established medical knowledge
 
 🧰 Tools & Technologies Used
 
-Python 🐍
-Pandas, NumPy
-Scikit-learn
-Matplotlib, Seaborn
-Jupyter Notebook / Google Colab
+1. Python 🐍
+2. Pandas, NumPy
+3. Scikit-learn
+4. Matplotlib, Seaborn
+5. Jupyter Notebook / Google Colab
 
 ⚠️ Disclaimer
 
