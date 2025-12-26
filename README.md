@@ -37,6 +37,18 @@ Support Vector Machine (SVM)
 5. Followed by BMI, Age, and Diabetes Pedigree Function
 6. The learned feature importance aligns well with established medical knowledge
 
+🔍 Model Explainability (SHAP)
+
+In healthcare-oriented machine learning applications, predictive performance alone is insufficient. Understanding why a model produces a particular prediction is critical for trust, transparency, and responsible use.
+To address this, SHAP (SHapley Additive exPlanations) was integrated into the trained machine learning model to interpret feature contributions at both global and individual levels.
+Explainability insights:
+1. Global interpretation: SHAP summary plots highlight the most influential clinical features across the dataset, providing a dataset-level understanding of model behavior.
+2. Local interpretation: SHAP waterfall and force plots were used to analyze individual predictions, showing how specific feature values push the model toward or away from a diabetic outcome.
+3. Model transparency: This analysis helps bridge the gap between black-box predictions and human-interpretable reasoning, which is especially important in high-stakes healthcare settings.
+
+# All SHAP-based visualizations are available in the images/ directory.
+## This step reinforced the importance of explainable machine learning when deploying models in high-stakes domains such as healthcare.
+
 🧰 Tools & Technologies Used
 
 1. Python 🐍
